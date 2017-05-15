@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     
     var startX:Int = 4
     
+    //コメント
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -86,6 +88,7 @@ class ViewController: UIViewController {
         var px:Int = 0
         var py:Int = 0
         var ield = fieldMapping(data: self.matrix,mino: mino,startX: self.startX,startY: self.startY)
+        
         for y in 0...FIELD_HEIGHT {
             px = 0
             for x in 0...FIELD_WIDTH {
